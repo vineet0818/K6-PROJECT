@@ -13,21 +13,10 @@ Before running the tests, make sure the following tools are installed on your ma
 
 ---
 
-## 1. Install Git
 
-Download and install Git:
 
-https://git-scm.com/downloads
 
-Verify the installation:
-
-```powershell
-git --version
-```
-
----
-
-## 2. Install Node.js and npm
+## 1. Install Node.js and npm
 
 Download the LTS version from:
 
@@ -42,7 +31,7 @@ npm --version
 
 ---
 
-## 3. Install k6
+## 2. Install k6
 
 ### Windows (Chocolatey)
 
@@ -82,7 +71,7 @@ k6 version
 
 ---
 
-## 4. Clone the Repository
+## 3. Clone the Repository
 
 ```powershell
 git clone <repository-url>
@@ -93,7 +82,7 @@ Replace `<repository-url>` with your project's Git repository URL.
 
 ---
 
-## 5. Install Project Dependencies
+## 4. Install Project Dependencies
 
 If the project uses npm packages, install them:
 
@@ -103,7 +92,7 @@ npm install
 
 ---
 
-## 6. Configure the Bearer Token
+## 5. Configure the Bearer Token
 
 A valid Bearer Token is required to authenticate API requests.
 
@@ -127,7 +116,7 @@ export BEARER_TOKEN="your_bearer_token"
 
 ---
 
-## 7. Run the Tests
+## 6. Run the Tests
 
 Run a specific test:
 
