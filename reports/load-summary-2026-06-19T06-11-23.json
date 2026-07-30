@@ -1,0 +1,390 @@
+{
+  "options": {
+    "summaryTrendStats": [
+      "avg",
+      "min",
+      "med",
+      "max",
+      "p(90)",
+      "p(95)"
+    ],
+    "summaryTimeUnit": "",
+    "noColor": false
+  },
+  "state": {
+    "isStdOutTTY": true,
+    "isStdErrTTY": true,
+    "testRunDurationMs": 104436.8709
+  },
+  "metrics": {
+    "checks": {
+      "type": "rate",
+      "contains": "default",
+      "values": {
+        "passes": 195,
+        "fails": 279,
+        "rate": 0.41139240506329117
+      }
+    },
+    "vus": {
+      "type": "gauge",
+      "contains": "default",
+      "values": {
+        "value": 2,
+        "min": 0,
+        "max": 20
+      }
+    },
+    "http_reqs": {
+      "contains": "default",
+      "values": {
+        "count": 475,
+        "rate": 4.5482021426591785
+      },
+      "type": "counter"
+    },
+    "http_req_duration{expected_response:true}": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "avg": 316.97220255102036,
+        "min": 258.1099,
+        "med": 288.43755,
+        "max": 1029.3066,
+        "p(90)": 355.58995000000004,
+        "p(95)": 426.3256
+      }
+    },
+    "data_received": {
+      "type": "counter",
+      "contains": "data",
+      "values": {
+        "count": 5667679,
+        "rate": 54268.9468877988
+      }
+    },
+    "http_req_tls_handshaking": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "avg": 509.45050842105275,
+        "min": 470.6182,
+        "med": 498.2218,
+        "max": 1206.1126,
+        "p(90)": 513.5796399999999,
+        "p(95)": 522.0554999999999
+      }
+    },
+    "http_req_receiving": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "p(90)": 8.03868,
+        "p(95)": 10.798509999999998,
+        "avg": 6.944725052631576,
+        "min": 0,
+        "med": 1.0838,
+        "max": 732.1755
+      }
+    },
+    "data_sent": {
+      "type": "counter",
+      "contains": "data",
+      "values": {
+        "count": 1249414,
+        "rate": 11963.341961828157
+      }
+    },
+    "iterations": {
+      "type": "counter",
+      "contains": "default",
+      "values": {
+        "count": 158,
+        "rate": 1.5128756600845268
+      }
+    },
+    "http_req_failed": {
+      "contains": "default",
+      "values": {
+        "rate": 0.5873684210526315,
+        "passes": 279,
+        "fails": 196
+      },
+      "thresholds": {
+        "rate<0.01": {
+          "ok": false
+        }
+      },
+      "type": "rate"
+    },
+    "http_req_blocked": {
+      "values": {
+        "p(95)": 801.1941199999978,
+        "avg": 758.2464743157898,
+        "min": 707.2726,
+        "med": 742.3238,
+        "max": 1740.3176,
+        "p(90)": 767.94062
+      },
+      "type": "trend",
+      "contains": "time"
+    },
+    "iteration_duration": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "max": 7693.3224,
+        "p(90)": 6347.61962,
+        "p(95)": 6592.1551150000005,
+        "avg": 6111.935668354431,
+        "min": 5914.9578,
+        "med": 6034.721
+      }
+    },
+    "http_req_connecting": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "p(95)": 252.47547,
+        "avg": 248.59123831578947,
+        "min": 224.3311,
+        "med": 243.7468,
+        "max": 1251.2275,
+        "p(90)": 250.4991
+      }
+    },
+    "http_req_waiting": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "avg": 271.2146726315789,
+        "min": 230.9577,
+        "med": 252.1577,
+        "max": 926.1795,
+        "p(90)": 316.51744,
+        "p(95)": 342.38860999999997
+      }
+    },
+    "custom_error_rate": {
+      "contains": "default",
+      "values": {
+        "rate": 0.5886075949367089,
+        "passes": 279,
+        "fails": 195
+      },
+      "type": "rate"
+    },
+    "vus_max": {
+      "values": {
+        "max": 20,
+        "value": 20,
+        "min": 20
+      },
+      "type": "gauge",
+      "contains": "default"
+    },
+    "http_req_duration": {
+      "contains": "time",
+      "values": {
+        "med": 254.1416,
+        "max": 1029.3066,
+        "p(90)": 322.45278,
+        "p(95)": 352.32157999999987,
+        "avg": 278.22199621052636,
+        "min": 232.3619
+      },
+      "thresholds": {
+        "p(95)<2000": {
+          "ok": true
+        }
+      },
+      "type": "trend"
+    },
+    "http_req_sending": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "avg": 0.06259852631578947,
+        "min": 0,
+        "med": 0,
+        "max": 0.7114,
+        "p(90)": 0.5173800000000001,
+        "p(95)": 0.55853
+      }
+    }
+  },
+  "setup_data": {
+    "countries": [
+      {
+        "id": "600289ec-13d0-483c-b24a-61ec9a930820",
+        "name": "Germany",
+        "code": "DE"
+      },
+      {
+        "code": "ID",
+        "id": "5b04b6e9-af8a-4483-8433-78c98f8c7cd3",
+        "name": "Indonesia"
+      },
+      {
+        "code": "IE",
+        "id": "c22aef86-65c8-4b11-930e-cac13cdb8e85",
+        "name": "Ireland"
+      },
+      {
+        "code": "MY",
+        "id": "63265f51-f69a-46d4-adee-828b013fc9ab",
+        "name": "Malaysia"
+      },
+      {
+        "code": "IN",
+        "id": "34c46c03-aa6c-4a70-9bba-e78025accd89",
+        "name": "PerfTestUpdate"
+      },
+      {
+        "code": "AU",
+        "id": "5c2fdaa1-8a50-4510-a1c2-f69bb9c8ad6f",
+        "name": "PerfTestUpdate"
+      },
+      {
+        "id": "632bd006-d0ec-4516-97ce-4715d43a715f",
+        "name": "PerfTestUpdate",
+        "code": "BR"
+      },
+      {
+        "name": "PerfTestUpdate",
+        "code": "CN",
+        "id": "66f8c295-3be0-469d-ace2-d39669e5d906"
+      },
+      {
+        "code": "NO",
+        "id": "7881c375-d317-412a-9d6c-5fe2d32b75c7",
+        "name": "PerfTestUpdate"
+      },
+      {
+        "code": "JP",
+        "id": "85b9c44d-9196-4a4b-a407-41441df13b9d",
+        "name": "PerfTestUpdate"
+      },
+      {
+        "code": "IT",
+        "id": "9403abb6-cf7e-45f6-9f71-2bea033c44f5",
+        "name": "PerfTestUpdate"
+      },
+      {
+        "code": "BE",
+        "id": "99139fa8-cc78-4916-b963-341e38afbf6e",
+        "name": "PerfTestUpdate"
+      },
+      {
+        "name": "PerfTestUpdate",
+        "code": "MX",
+        "id": "d814587f-7a76-49da-bfc0-70dcc17d0b3f"
+      },
+      {
+        "code": "NL",
+        "id": "db6ac6d5-8009-4348-bd1b-0c8611c27f02",
+        "name": "PerfTestUpdate"
+      },
+      {
+        "code": "CA",
+        "id": "fdc200bd-73bc-4805-b652-fba1e1e6b538",
+        "name": "PerfTestUpdate"
+      },
+      {
+        "code": "NZ",
+        "id": "ffa6281b-6b5c-49f1-8d49-9768712de2cd",
+        "name": "PerfTestUpdate"
+      },
+      {
+        "code": "PH",
+        "id": "dc08ff15-683f-4a1a-a65e-20df9d4070ce",
+        "name": "Philippines"
+      },
+      {
+        "code": "SA",
+        "id": "8df452de-9080-4b18-8fa5-6addf301a8e4",
+        "name": "Saudi Arabia"
+      },
+      {
+        "code": "SG",
+        "id": "20b6749b-f891-44e8-8166-91c10f8ce4f1",
+        "name": "Singapore"
+      },
+      {
+        "code": "ZA",
+        "id": "d57a0f93-bda4-4c49-9cda-256b57348904",
+        "name": "South Africa"
+      },
+      {
+        "code": "KR",
+        "id": "a3ecb08e-b4bc-4109-9ec2-14a97fabd609",
+        "name": "South Korea"
+      },
+      {
+        "code": "ES",
+        "id": "76026528-7944-4b76-82b4-1af275b1c846",
+        "name": "Spain"
+      },
+      {
+        "code": "SE",
+        "id": "38fe09d4-198c-4b59-ad7d-32dc6bd9d856",
+        "name": "Sweden"
+      },
+      {
+        "name": "Switzerland",
+        "code": "CH",
+        "id": "2d3e88eb-3642-4114-8e29-037a443379a6"
+      },
+      {
+        "code": "TH",
+        "id": "7684797b-af7a-465b-a1ba-2705d5a27120",
+        "name": "Thailand"
+      },
+      {
+        "code": "TR",
+        "id": "1b1461ce-534d-444a-a80a-f63f920ded98",
+        "name": "Turkey"
+      },
+      {
+        "code": "AE",
+        "id": "6bf31508-4a91-480f-ae06-cac9a7aad03b",
+        "name": "United Arab Emirates"
+      },
+      {
+        "code": "US",
+        "id": "3be494e9-0767-4cd5-bcf9-d25cf114b092",
+        "name": "United States of America"
+      }
+    ],
+    "token": "dummy-token-123"
+  },
+  "root_group": {
+    "path": "",
+    "id": "d41d8cd98f00b204e9800998ecf8427e",
+    "groups": [],
+    "checks": [
+        {
+          "name": "GET Countries - status 200",
+          "path": "::GET Countries - status 200",
+          "id": "43176431f1f39b89b66c2302b251faac",
+          "passes": 70,
+          "fails": 88
+        },
+        {
+          "passes": 64,
+          "fails": 94,
+          "name": "GET Jurisdictions - status 200",
+          "path": "::GET Jurisdictions - status 200",
+          "id": "f6f9129f5005609b5190cebb105a8bd0"
+        },
+        {
+          "passes": 61,
+          "fails": 97,
+          "name": "GET Audit History - status 200",
+          "path": "::GET Audit History - status 200",
+          "id": "530279fdaf5995f08f918a065e990789"
+        }
+      ],
+    "name": ""
+  }
+}

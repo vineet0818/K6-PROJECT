@@ -1,0 +1,11 @@
+{
+  "baseUrl": "https://insurity-qa-productconfig-api-v2-buhvfkhzhrfmf5gt.centralus-01.azurewebsites.net",
+  "baseUrlRules": "https://insurity-dev-microservice2-api-v2-hggmfuh2hbf7ahbr.centralus-01.azurewebsites.net",
+  "baseUrlAccounts": "https://eais-acm-qa-api-d0fnh4gkcefaaygn.canadacentral-01.azurewebsites.net",
+  "lobId": "16bc1ba4-ad8c-4303-b833-3fd628d4692e",
+  "countryId": "3be494e9-0767-4cd5-bcf9-d25cf114b092",
+  "headers": {
+    "Content-Type": "application/vnd.api+json",
+    "Accept": "application/vnd.api+json"
+  }
+}

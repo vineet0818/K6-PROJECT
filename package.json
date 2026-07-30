@@ -1,0 +1,12 @@
+{
+  "name": "k6-insurity-tests",
+  "version": "1.0.0",
+  "description": "Performance tests for Insurity APIs",
+  "scripts": {
+    "test:load": "k6 run scenarios/load-test.js",
+    "report": "k6 run scenarios/load-test.js --out json=reports/result.json && npx k6-reporter reports/result.json reports/report.html"
+  },
+  "devDependencies": {
+    "k6-reporter": "^1.0.0"
+  }
+}

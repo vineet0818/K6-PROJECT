@@ -1,0 +1,463 @@
+{
+  "root_group": {
+    "name": "",
+    "path": "",
+    "id": "d41d8cd98f00b204e9800998ecf8427e",
+    "groups": [],
+    "checks": [
+        {
+          "name": "01 GET Rules - ok/throttled",
+          "path": "::01 GET Rules - ok/throttled",
+          "id": "e600006ae11ff270a4819ad0a0605347",
+          "passes": 6,
+          "fails": 0
+        },
+        {
+          "name": "02 POST Rule - ok/throttled",
+          "path": "::02 POST Rule - ok/throttled",
+          "id": "8fc26f4295d1c025881a92c5fe2ebd5b",
+          "passes": 0,
+          "fails": 6
+        },
+        {
+          "name": "03 GET Rule by ID - ok/throttled",
+          "path": "::03 GET Rule by ID - ok/throttled",
+          "id": "643f0e43a9a009e54ff47bbecd79a8ba",
+          "passes": 6,
+          "fails": 0
+        },
+        {
+          "fails": 0,
+          "name": "04 PATCH Rule - ok/throttled",
+          "path": "::04 PATCH Rule - ok/throttled",
+          "id": "776137d9803971b4c9cd9112bd3ac417",
+          "passes": 6
+        },
+        {
+          "id": "ea8f3e52b0495ab9201403caf240a1b5",
+          "passes": 6,
+          "fails": 0,
+          "name": "05 DEACTIVATE Rule - ok/throttled",
+          "path": "::05 DEACTIVATE Rule - ok/throttled"
+        },
+        {
+          "passes": 6,
+          "fails": 0,
+          "name": "06 RETIRE Rule - ok/throttled",
+          "path": "::06 RETIRE Rule - ok/throttled",
+          "id": "d4e9a23a37c97acd9a836da0255d014a"
+        },
+        {
+          "passes": 1,
+          "fails": 5,
+          "name": "07 DELETE Rule - ok/throttled",
+          "path": "::07 DELETE Rule - ok/throttled",
+          "id": "56414c4f785b74f9c633cc3d050e5e16"
+        },
+        {
+          "name": "08 POST LOB Version - ok/throttled",
+          "path": "::08 POST LOB Version - ok/throttled",
+          "id": "f6ac6ebbd799686d98302f4b23319995",
+          "passes": 6,
+          "fails": 0
+        },
+        {
+          "path": "::09 GET Accounts - ok/throttled",
+          "id": "bfb00756344f0e17002559536ada2157",
+          "passes": 6,
+          "fails": 0,
+          "name": "09 GET Accounts - ok/throttled"
+        },
+        {
+          "path": "::10 GET Account by ID - ok/throttled",
+          "id": "a9b4b90b3e1d227b78b09d93000903f3",
+          "passes": 6,
+          "fails": 0,
+          "name": "10 GET Account by ID - ok/throttled"
+        }
+      ]
+  },
+  "options": {
+    "noColor": false,
+    "summaryTrendStats": [
+      "avg",
+      "min",
+      "med",
+      "max",
+      "p(90)",
+      "p(95)"
+    ],
+    "summaryTimeUnit": ""
+  },
+  "state": {
+    "testRunDurationMs": 144666.9669,
+    "isStdOutTTY": true,
+    "isStdErrTTY": true
+  },
+  "metrics": {
+    "data_sent": {
+      "contains": "data",
+      "values": {
+        "count": 47564,
+        "rate": 328.78272780045404
+      },
+      "type": "counter"
+    },
+    "http_req_duration": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "max": 1307.4219,
+        "p(90)": 376.31750999999997,
+        "p(95)": 401.3603099999999,
+        "avg": 329.76969516129026,
+        "min": 270.1286,
+        "med": 291.04395
+      },
+      "thresholds": {
+        "p(95)<2000": {
+          "ok": true
+        }
+      }
+    },
+    "custom_error_rate": {
+      "values": {
+        "rate": 0.18333333333333332,
+        "passes": 11,
+        "fails": 49
+      },
+      "thresholds": {
+        "rate<0.05": {
+          "ok": false
+        }
+      },
+      "type": "rate",
+      "contains": "default"
+    },
+    "vus_max": {
+      "type": "gauge",
+      "contains": "default",
+      "values": {
+        "value": 1,
+        "min": 1,
+        "max": 1
+      }
+    },
+    "http_req_failed": {
+      "values": {
+        "rate": 0.43548387096774194,
+        "passes": 27,
+        "fails": 35
+      },
+      "type": "rate",
+      "contains": "default"
+    },
+    "http_req_waiting": {
+      "values": {
+        "p(90)": 361.47611,
+        "p(95)": 376.78582499999993,
+        "avg": 301.9495629032258,
+        "min": 264.4261,
+        "med": 288.6412,
+        "max": 439.8105
+      },
+      "type": "trend",
+      "contains": "time"
+    },
+    "http_req_receiving": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "med": 1.07915,
+        "max": 996.4897,
+        "p(90)": 11.804239999999998,
+        "p(95)": 14.585704999999995,
+        "avg": 27.801332258064523,
+        "min": 0
+      }
+    },
+    "checks": {
+      "type": "rate",
+      "contains": "default",
+      "values": {
+        "rate": 0.8166666666666667,
+        "passes": 49,
+        "fails": 11
+      }
+    },
+    "http_req_blocked": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "avg": 66.45735,
+        "min": 0,
+        "med": 0,
+        "max": 882.6268,
+        "p(90)": 0,
+        "p(95)": 806.4563549999997
+      }
+    },
+    "http_req_sending": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "p(95)": 0,
+        "avg": 0.0188,
+        "min": 0,
+        "med": 0,
+        "max": 0.6023,
+        "p(90)": 0
+      }
+    },
+    "data_received": {
+      "type": "counter",
+      "contains": "data",
+      "values": {
+        "count": 510422,
+        "rate": 3528.2553504617645
+      }
+    },
+    "vus": {
+      "type": "gauge",
+      "contains": "default",
+      "values": {
+        "value": 1,
+        "min": 0,
+        "max": 1
+      }
+    },
+    "iteration_duration": {
+      "values": {
+        "p(95)": 25413.8907,
+        "avg": 23654.76065,
+        "min": 22937.4674,
+        "med": 23031.136449999998,
+        "max": 25858.0637,
+        "p(90)": 24969.7177
+      },
+      "type": "trend",
+      "contains": "time"
+    },
+    "http_reqs": {
+      "contains": "default",
+      "values": {
+        "count": 62,
+        "rate": 0.4285705391394364
+      },
+      "type": "counter"
+    },
+    "http_req_duration{expected_response:true}": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "max": 1307.4219,
+        "p(90)": 393.04466,
+        "p(95)": 613.9938599999996,
+        "avg": 361.1384514285715,
+        "min": 271.4426,
+        "med": 307.6371
+      }
+    },
+    "iterations": {
+      "type": "counter",
+      "contains": "default",
+      "values": {
+        "count": 6,
+        "rate": 0.04147456830381643
+      }
+    },
+    "http_req_tls_handshaking": {
+      "contains": "time",
+      "values": {
+        "p(95)": 518.6952249999999,
+        "avg": 43.47690483870968,
+        "min": 0,
+        "med": 0,
+        "max": 572.1383,
+        "p(90)": 0
+      },
+      "type": "trend"
+    },
+    "http_req_connecting": {
+      "values": {
+        "avg": 21.057487096774192,
+        "min": 0,
+        "med": 0,
+        "max": 277.896,
+        "p(90)": 0,
+        "p(95)": 244.417665
+      },
+      "type": "trend",
+      "contains": "time"
+    }
+  },
+  "setup_data": {
+    "token": "dummy-token-123",
+    "accounts": [
+      {
+        "id": "a97d8c02-53ca-4d13-852d-17130bbbb523",
+        "legalName": "Testing partial four"
+      },
+      {
+        "id": "33b78a6f-5d9c-4bc1-ab76-e2eb10e66377",
+        "legalName": "Beta Industries LLC"
+      },
+      {
+        "legalName": "Beta Industries LLC",
+        "id": "94e02aa9-6349-4573-82b5-2e4667dfeb42"
+      },
+      {
+        "id": "1a11f81c-6dd7-44a5-bf2c-1dcacd7cd52a",
+        "legalName": "lmk"
+      },
+      {
+        "id": "bfd6d6de-fa8e-4f9f-838f-d1405c7e371b",
+        "legalName": "lmk"
+      },
+      {
+        "id": "66d43e73-3f3d-44d7-a2cf-531cb827914d",
+        "legalName": "Beta Industries LLC"
+      },
+      {
+        "id": "8d988e2c-bc16-4178-970a-ded570e4393d",
+        "legalName": "Beta Industries LLC"
+      },
+      {
+        "legalName": "Draft Account 91b39ce1",
+        "id": "b7c8db4a-d139-473a-9614-25d2afcc4293"
+      },
+      {
+        "id": "35195c6e-5407-4f54-b4b8-6706decbc9f2",
+        "legalName": "Multi-Address Corp 0e83e371"
+      },
+      {
+        "id": "a261d5f5-5c12-4d68-9391-8ae38a2d4fa7",
+        "legalName": "Draft Account 363db13f"
+      },
+      {
+        "id": "c0073423-41c3-4886-a5c0-a6941a62f217",
+        "legalName": "Multi-Address Corp 3ba90c82"
+      },
+      {
+        "id": "87c556d0-a15a-43d3-875b-885b9b4f0fa7",
+        "legalName": "Acme Corporation 5ae9ab69"
+      },
+      {
+        "id": "91620ad6-4fb9-4554-b3b3-49aa4071853d",
+        "legalName": "Draft Corp 0596dca7"
+      },
+      {
+        "id": "60827176-7d34-4ec6-ba77-7a5d7790dec4",
+        "legalName": "Multi Address Corp 8a81051e"
+      },
+      {
+        "id": "c35b46ad-310b-41cf-9781-81e6e6cc829f",
+        "legalName": "Acme Corporation ffc763df"
+      },
+      {
+        "id": "fa009a39-5d13-4cd2-8f77-3dd91405872e",
+        "legalName": "MissingType Corp 397a0286"
+      },
+      {
+        "id": "c177eb82-7794-4f6f-9759-a588bfcc5eeb",
+        "legalName": "Draft Corp d1bfb13e"
+      },
+      {
+        "id": "6028a51d-c2e8-4a6a-a7eb-2912be08e143",
+        "legalName": "Multi Address Corp 2eb84660"
+      },
+      {
+        "id": "706903c0-1ec9-44b7-acaf-a9a674d7ab68",
+        "legalName": "Acme Corporation 060b4939"
+      },
+      {
+        "id": "6f437f65-ea4c-42b8-a11e-8551c4cfb297",
+        "legalName": "MissingType Corp a47dae77"
+      },
+      {
+        "id": "177d3cb3-7325-47f2-98ab-cd8985caaf2f",
+        "legalName": "Draft Account 59f166b6"
+      },
+      {
+        "id": "568c55ce-ffb1-40cc-b8f2-5b506dd293e7",
+        "legalName": "Multi-Address Corp db0eb688"
+      },
+      {
+        "id": "f20e9a83-f68c-4d7b-b6ec-263f6de5c25b",
+        "legalName": "Draft Account dbf28bdd"
+      },
+      {
+        "id": "8ffba94b-a5e3-4412-afd7-6c0ea40a5845",
+        "legalName": "Multi-Address Corp 7abdfe11"
+      },
+      {
+        "id": "f01c0bbd-7ec2-463d-889a-6fd7da1ecfce",
+        "legalName": "Acme Corporation 8a0ae7ec"
+      }
+    ],
+    "activeRules": [
+      {
+        "id": "e68836c5-6554-47bd-af03-77d912bd349a",
+        "rule_code": "AV_XGOQJ",
+        "status": "Active"
+      },
+      {
+        "rule_code": "AV_X7AUA",
+        "status": "Active",
+        "id": "327e5b49-6911-4489-b942-d6b7b8f53187"
+      },
+      {
+        "id": "789067e1-4cd5-47ec-93ca-5d614fc7f602",
+        "rule_code": "RBA_WHT2A",
+        "status": "Active"
+      },
+      {
+        "id": "92705532-08a7-4261-9fc2-e6f4dffe006a",
+        "rule_code": "AV_WI8HV",
+        "status": "Active"
+      },
+      {
+        "id": "c1f4ee19-0087-490b-a8d4-bf76c5a00438",
+        "rule_code": "AV_XIXUX",
+        "status": "Active"
+      }
+    ],
+    "draftRules": [
+      {
+        "id": "71004640-a77d-4430-a31f-0b6a8e6542f9",
+        "rule_code": "ROOF_AGE_20260521073304_601",
+        "status": "Draft"
+      },
+      {
+        "rule_code": "ROOF_AGE_20260521083914_253",
+        "status": "Draft",
+        "id": "632787ef-7fcb-4e40-8d2f-cd36c635b775"
+      },
+      {
+        "rule_code": "ROOF_AGE_20260521063946_200",
+        "status": "Draft",
+        "id": "452c379f-50ad-46a8-b652-c8a65e2a3004"
+      },
+      {
+        "status": "Draft",
+        "id": "d0780e62-f288-424b-85b7-388042ee7d5f",
+        "rule_code": "ROOF_AGE_20260521073348_230"
+      },
+      {
+        "id": "5ce2bcd5-3089-4a40-96e8-88b2ca91dc21",
+        "rule_code": "ROOF_AGE_20260521064838_692",
+        "status": "Draft"
+      },
+      {
+        "id": "20f937f7-bf29-470f-88e5-a74fac00e282",
+        "rule_code": "ROOF_AGE_20260521073426_626",
+        "status": "Draft"
+      },
+      {
+        "status": "Draft",
+        "id": "3d56b642-f651-4c0e-8e72-07dd15db2517",
+        "rule_code": "ROOF_AGE_20260521073236_216"
+      }
+    ]
+  }
+}

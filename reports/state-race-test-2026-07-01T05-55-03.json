@@ -1,0 +1,422 @@
+{
+  "root_group": {
+    "name": "",
+    "path": "",
+    "id": "d41d8cd98f00b204e9800998ecf8427e",
+    "groups": [],
+    "checks": [
+        {
+          "name": "BURST1 PATCH-1 - no server error",
+          "path": "::BURST1 PATCH-1 - no server error",
+          "id": "71ff7ccdbaad821788892c4dc9685ae9",
+          "passes": 1,
+          "fails": 0
+        },
+        {
+          "name": "BURST1 PATCH-2 - no server error",
+          "path": "::BURST1 PATCH-2 - no server error",
+          "id": "ce8403818f4e16236d7c623de3120920",
+          "passes": 1,
+          "fails": 0
+        },
+        {
+          "fails": 0,
+          "name": "BURST1 DEACTIVATE-1 - no server error",
+          "path": "::BURST1 DEACTIVATE-1 - no server error",
+          "id": "76c6c179b5afaf97b2ad01f25d5a378a",
+          "passes": 1
+        },
+        {
+          "passes": 1,
+          "fails": 0,
+          "name": "BURST1 DEACTIVATE-2 - no server error",
+          "path": "::BURST1 DEACTIVATE-2 - no server error",
+          "id": "99b0b4b18e43f12231a87fd08a8e352a"
+        },
+        {
+          "passes": 1,
+          "fails": 0,
+          "name": "BURST1 RETIRE-1 - no server error",
+          "path": "::BURST1 RETIRE-1 - no server error",
+          "id": "c92611fbecfa85638171264ed775d69a"
+        },
+        {
+          "passes": 1,
+          "fails": 0,
+          "name": "BURST1 RETIRE-2 - no server error",
+          "path": "::BURST1 RETIRE-2 - no server error",
+          "id": "9cf39be359f7b73de6b52b11aeaa6e84"
+        },
+        {
+          "fails": 1,
+          "name": "BURST1 DELETE-1 - no server error",
+          "path": "::BURST1 DELETE-1 - no server error",
+          "id": "0087b0a1feeae51af3401acffab61e3e",
+          "passes": 0
+        },
+        {
+          "path": "::BURST1 DELETE-2 - no server error",
+          "id": "624cdd6ee3c386b6047d1c7f4c168c48",
+          "passes": 1,
+          "fails": 0,
+          "name": "BURST1 DELETE-2 - no server error"
+        },
+        {
+          "name": "BURST2 PATCH-1 - no server error",
+          "path": "::BURST2 PATCH-1 - no server error",
+          "id": "00e90b235a6bf70096477cd20e986f5d",
+          "passes": 1,
+          "fails": 0
+        },
+        {
+          "name": "BURST2 PATCH-2 - no server error",
+          "path": "::BURST2 PATCH-2 - no server error",
+          "id": "049a2c3ec09a5eda32ebd606b0a8ac73",
+          "passes": 1,
+          "fails": 0
+        },
+        {
+          "passes": 1,
+          "fails": 0,
+          "name": "BURST2 DEACTIVATE-1 - no server error",
+          "path": "::BURST2 DEACTIVATE-1 - no server error",
+          "id": "43100437bd054b2b1fbeb180f8eb6484"
+        },
+        {
+          "path": "::BURST2 DEACTIVATE-2 - no server error",
+          "id": "644d9c11830f0493eca333b26e03d2ae",
+          "passes": 1,
+          "fails": 0,
+          "name": "BURST2 DEACTIVATE-2 - no server error"
+        },
+        {
+          "fails": 0,
+          "name": "BURST2 RETIRE-1 - no server error",
+          "path": "::BURST2 RETIRE-1 - no server error",
+          "id": "21eba2dfcb8bb2fa5420970abe0c4a8f",
+          "passes": 1
+        },
+        {
+          "path": "::BURST2 RETIRE-2 - no server error",
+          "id": "1469951edda9832e43adb78cdd4b27bb",
+          "passes": 1,
+          "fails": 0,
+          "name": "BURST2 RETIRE-2 - no server error"
+        },
+        {
+          "name": "BURST2 DELETE-1 - no server error",
+          "path": "::BURST2 DELETE-1 - no server error",
+          "id": "4a333cf71a2bb320689ac49826afcc36",
+          "passes": 1,
+          "fails": 0
+        },
+        {
+          "fails": 0,
+          "name": "BURST2 DELETE-2 - no server error",
+          "path": "::BURST2 DELETE-2 - no server error",
+          "id": "55c55033ed4010577a85647f9b935d9d",
+          "passes": 1
+        },
+        {
+          "passes": 1,
+          "fails": 0,
+          "name": "BURST3 PATCH-1 - no server error",
+          "path": "::BURST3 PATCH-1 - no server error",
+          "id": "b23a06c845289ed5055a0e1580590c85"
+        },
+        {
+          "name": "BURST3 PATCH-2 - no server error",
+          "path": "::BURST3 PATCH-2 - no server error",
+          "id": "173eaa0191a8ad5dab53a1459d7d2cf3",
+          "passes": 1,
+          "fails": 0
+        },
+        {
+          "passes": 1,
+          "fails": 0,
+          "name": "BURST3 DEACTIVATE-1 - no server error",
+          "path": "::BURST3 DEACTIVATE-1 - no server error",
+          "id": "991f796724336f83b1022f6406f2fbad"
+        },
+        {
+          "fails": 0,
+          "name": "BURST3 DEACTIVATE-2 - no server error",
+          "path": "::BURST3 DEACTIVATE-2 - no server error",
+          "id": "7bd044dd0ffb42ce4684112c6bcc6e52",
+          "passes": 1
+        },
+        {
+          "id": "29caf1c0521a603995a2912ad21c5104",
+          "passes": 1,
+          "fails": 0,
+          "name": "BURST3 RETIRE-1 - no server error",
+          "path": "::BURST3 RETIRE-1 - no server error"
+        },
+        {
+          "name": "BURST3 RETIRE-2 - no server error",
+          "path": "::BURST3 RETIRE-2 - no server error",
+          "id": "487a8d42a63321d4723b908cd4e4160e",
+          "passes": 1,
+          "fails": 0
+        },
+        {
+          "path": "::BURST3 DELETE-1 - no server error",
+          "id": "d75d17f80b4cf0d3212ca388ae7dd966",
+          "passes": 0,
+          "fails": 1,
+          "name": "BURST3 DELETE-1 - no server error"
+        },
+        {
+          "id": "49329f7d7f00231610ad1b5bda130b29",
+          "passes": 1,
+          "fails": 0,
+          "name": "BURST3 DELETE-2 - no server error",
+          "path": "::BURST3 DELETE-2 - no server error"
+        }
+      ]
+  },
+  "options": {
+    "summaryTimeUnit": "",
+    "noColor": false,
+    "summaryTrendStats": [
+      "avg",
+      "min",
+      "med",
+      "max",
+      "p(90)",
+      "p(95)"
+    ]
+  },
+  "state": {
+    "isStdOutTTY": true,
+    "isStdErrTTY": true,
+    "testRunDurationMs": 185283.5677
+  },
+  "metrics": {
+    "custom_error_rate": {
+      "contains": "default",
+      "values": {
+        "rate": 0.08333333333333333,
+        "passes": 2,
+        "fails": 22
+      },
+      "type": "rate"
+    },
+    "data_received": {
+      "type": "counter",
+      "contains": "data",
+      "values": {
+        "rate": 607.0640877453268,
+        "count": 112479
+      }
+    },
+    "http_reqs": {
+      "type": "counter",
+      "contains": "default",
+      "values": {
+        "count": 30,
+        "rate": 0.1619139806751465
+      }
+    },
+    "server_errors_500": {
+      "type": "counter",
+      "contains": "default",
+      "values": {
+        "count": 2,
+        "rate": 0.0107942653783431
+      }
+    },
+    "http_req_connecting": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "med": 0,
+        "max": 246.8559,
+        "p(90)": 24.59590000000035,
+        "p(95)": 246.452295,
+        "avg": 24.655693333333332,
+        "min": 0
+      }
+    },
+    "http_req_failed": {
+      "type": "rate",
+      "contains": "default",
+      "values": {
+        "fails": 12,
+        "rate": 0.6,
+        "passes": 18
+      }
+    },
+    "http_req_blocked": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "avg": 155.96457666666666,
+        "min": 0,
+        "med": 0,
+        "max": 857.3849,
+        "p(90)": 755.90206,
+        "p(95)": 759.5189300000001
+      }
+    },
+    "iterations": {
+      "type": "counter",
+      "contains": "default",
+      "values": {
+        "rate": 0.016191398067514653,
+        "count": 3
+      }
+    },
+    "http_req_tls_handshaking": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "avg": 51.14913,
+        "min": 0,
+        "med": 0,
+        "max": 513.4299,
+        "p(90)": 50.86772000000072,
+        "p(95)": 510.70648
+      }
+    },
+    "iteration_duration": {
+      "values": {
+        "min": 61188.4146,
+        "med": 61251.9109,
+        "max": 62818.2277,
+        "p(90)": 62504.964340000006,
+        "p(95)": 62661.596020000005,
+        "avg": 61752.85106666668
+      },
+      "type": "trend",
+      "contains": "time"
+    },
+    "vus": {
+      "type": "gauge",
+      "contains": "default",
+      "values": {
+        "value": 1,
+        "min": 1,
+        "max": 1
+      }
+    },
+    "http_req_waiting": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "p(95)": 417.24859999999995,
+        "avg": 333.0709866666667,
+        "min": 258.816,
+        "med": 325.88585,
+        "max": 437.9818,
+        "p(90)": 396.80445000000003
+      }
+    },
+    "vus_max": {
+      "type": "gauge",
+      "contains": "default",
+      "values": {
+        "value": 1,
+        "min": 1,
+        "max": 1
+      }
+    },
+    "state_error_422": {
+      "type": "counter",
+      "contains": "default",
+      "values": {
+        "count": 11,
+        "rate": 0.05936845958088706
+      }
+    },
+    "http_req_receiving": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "med": 0,
+        "max": 37.9484,
+        "p(90)": 1.8041600000000066,
+        "p(95)": 18.751494999999935,
+        "avg": 2.726176666666667,
+        "min": 0
+      }
+    },
+    "not_found_404": {
+      "type": "counter",
+      "contains": "default",
+      "values": {
+        "count": 2,
+        "rate": 0.0107942653783431
+      }
+    },
+    "http_req_duration": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "p(95)": 427.20721,
+        "avg": 336.2945499999999,
+        "min": 258.816,
+        "med": 325.88585,
+        "max": 438.8584,
+        "p(90)": 414.31995
+      },
+      "thresholds": {
+        "p(95)<5000": {
+          "ok": true
+        }
+      }
+    },
+    "data_sent": {
+      "values": {
+        "count": 36210,
+        "rate": 195.43017467490185
+      },
+      "type": "counter",
+      "contains": "data"
+    },
+    "http_req_duration{expected_response:true}": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "avg": 348.9737666666667,
+        "min": 274.0578,
+        "med": 346.53205,
+        "max": 438.8584,
+        "p(90)": 418.68532,
+        "p(95)": 429.21162
+      }
+    },
+    "http_req_sending": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "avg": 0.49738666666666664,
+        "min": 0,
+        "med": 0,
+        "max": 14.2275,
+        "p(90)": 0,
+        "p(95)": 0.38175499999999807
+      }
+    },
+    "operation_success": {
+      "contains": "default",
+      "values": {
+        "count": 9,
+        "rate": 0.048574194202543955
+      },
+      "type": "counter"
+    },
+    "checks": {
+      "type": "rate",
+      "contains": "default",
+      "values": {
+        "fails": 2,
+        "rate": 0.9166666666666666,
+        "passes": 22
+      }
+    }
+  },
+  "setup_data": {
+    "token": "your-real-token"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "data": {
+    "type": "CreateRule",
+    "attributes": {
+      "rule_code": "TERRITORY_ELIGIBILITY_TX",
+      "name": "Texas Territory Eligibility Check",
+      "description": "Blocks binding when the rated territory is outside approved Texas zones.",
+      "business_intent": "Prevent policy issuance in unapproved territories to manage geographic exposure.",
+      "rule_type": "Validation",
+      "scope": "Policy",
+      "execution_phase": "BusinessValidation",
+      "group": "Eligibility",
+      "context": "Bind",
+      "severity": "Blocking",
+      "applicability": "NewBusiness",
+      "outcome": "Block",
+      "hierarchy_level": "Jurisdiction",
+      "priority": 50,
+      "effective_from": "2026-01-01",
+      "lob_code": "AUTO",
+      "jurisdiction_code": "TX",
+      "body": {
+        "node_type": "sequence",
+        "statements": [
+          {
+            "node_type": "if_chain",
+            "branches": [
+              {
+                "branch_id": "00000000-0000-0000-0000-000000000000",
+                "label": "Territory check",
+                "condition": {
+                  "node_type": "compare",
+                  "op": "Eq",
+                  "left": {
+                    "node_type": "field_ref",
+                    "field_code": "territory_code",
+                    "data_type": "String"
+                  },
+                  "right": {
+                    "node_type": "literal",
+                    "data_type": "String",
+                    "value": "TX-005"
+                  },
+                  "type_coercion": "None"
+                },
+                "body": {
+                  "node_type": "assign",
+                  "target": {
+                    "node_type": "field_ref",
+                    "field_code": "rule.outcome",
+                    "data_type": "String"
+                  },
+                  "value": {
+                    "node_type": "literal",
+                    "data_type": "String",
+                    "value": "Block"
+                  },
+                  "override_policy": "Always"
+                }
+              }
+            ],
+            "else_body": null
+          }
+        ]
+      }
+    }
+  }
+}

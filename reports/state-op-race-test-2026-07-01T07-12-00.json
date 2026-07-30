@@ -1,0 +1,666 @@
+{
+  "root_group": {
+    "id": "d41d8cd98f00b204e9800998ecf8427e",
+    "groups": [],
+    "checks": [
+        {
+          "name": "DEACTIVATE BURST1 REQ1 - no server error",
+          "path": "::DEACTIVATE BURST1 REQ1 - no server error",
+          "id": "4732db228ed91fd68c58a392607e35a9",
+          "passes": 1,
+          "fails": 0
+        },
+        {
+          "fails": 0,
+          "name": "DEACTIVATE BURST1 REQ2 - no server error",
+          "path": "::DEACTIVATE BURST1 REQ2 - no server error",
+          "id": "4ba049f96e78653c5f4183d24c403e28",
+          "passes": 1
+        },
+        {
+          "name": "DEACTIVATE BURST1 REQ3 - no server error",
+          "path": "::DEACTIVATE BURST1 REQ3 - no server error",
+          "id": "cad0852332a318c4925f961d654261bd",
+          "passes": 1,
+          "fails": 0
+        },
+        {
+          "path": "::DEACTIVATE BURST1 REQ4 - no server error",
+          "id": "a6801d6e37e08f0b09071c31d82710ff",
+          "passes": 1,
+          "fails": 0,
+          "name": "DEACTIVATE BURST1 REQ4 - no server error"
+        },
+        {
+          "fails": 0,
+          "name": "DEACTIVATE BURST1 REQ5 - no server error",
+          "path": "::DEACTIVATE BURST1 REQ5 - no server error",
+          "id": "616f8b12238c80f2440f612de5ef41e6",
+          "passes": 1
+        },
+        {
+          "passes": 1,
+          "fails": 0,
+          "name": "DEACTIVATE BURST1 REQ6 - no server error",
+          "path": "::DEACTIVATE BURST1 REQ6 - no server error",
+          "id": "a1026e3c3ceec73b7129ab47c782417d"
+        },
+        {
+          "path": "::DEACTIVATE BURST1 REQ7 - no server error",
+          "id": "8e3d29f862b0a466590110af0395c2c1",
+          "passes": 1,
+          "fails": 0,
+          "name": "DEACTIVATE BURST1 REQ7 - no server error"
+        },
+        {
+          "fails": 0,
+          "name": "DEACTIVATE BURST1 REQ8 - no server error",
+          "path": "::DEACTIVATE BURST1 REQ8 - no server error",
+          "id": "3f83a23f0117f614410bfbab1d3a914b",
+          "passes": 1
+        },
+        {
+          "path": "::DEACTIVATE BURST1 REQ9 - no server error",
+          "id": "2236bbcc3b92e9385764e583325becaa",
+          "passes": 1,
+          "fails": 0,
+          "name": "DEACTIVATE BURST1 REQ9 - no server error"
+        },
+        {
+          "fails": 0,
+          "name": "DEACTIVATE BURST1 REQ10 - no server error",
+          "path": "::DEACTIVATE BURST1 REQ10 - no server error",
+          "id": "70c22d59c9f365f0d69e2752de577be7",
+          "passes": 1
+        },
+        {
+          "id": "8654d26687e690dd5da8ce477e87b5b6",
+          "passes": 1,
+          "fails": 0,
+          "name": "DEACTIVATE BURST2 REQ1 - no server error",
+          "path": "::DEACTIVATE BURST2 REQ1 - no server error"
+        },
+        {
+          "name": "DEACTIVATE BURST2 REQ2 - no server error",
+          "path": "::DEACTIVATE BURST2 REQ2 - no server error",
+          "id": "0b2400549d1499d45d17cdc2373ea71b",
+          "passes": 1,
+          "fails": 0
+        },
+        {
+          "path": "::DEACTIVATE BURST2 REQ3 - no server error",
+          "id": "7fdd6c96221695caefe7b6ee75e36bfe",
+          "passes": 1,
+          "fails": 0,
+          "name": "DEACTIVATE BURST2 REQ3 - no server error"
+        },
+        {
+          "passes": 1,
+          "fails": 0,
+          "name": "DEACTIVATE BURST2 REQ4 - no server error",
+          "path": "::DEACTIVATE BURST2 REQ4 - no server error",
+          "id": "d3ec7b4489ebd075d3ad076b60db2f37"
+        },
+        {
+          "name": "DEACTIVATE BURST2 REQ5 - no server error",
+          "path": "::DEACTIVATE BURST2 REQ5 - no server error",
+          "id": "1fd7cdd2a37d2fc988c3e39787803ecc",
+          "passes": 1,
+          "fails": 0
+        },
+        {
+          "id": "20134fb7a936cf4370914fb78b3de0cf",
+          "passes": 1,
+          "fails": 0,
+          "name": "DEACTIVATE BURST2 REQ6 - no server error",
+          "path": "::DEACTIVATE BURST2 REQ6 - no server error"
+        },
+        {
+          "name": "DEACTIVATE BURST2 REQ7 - no server error",
+          "path": "::DEACTIVATE BURST2 REQ7 - no server error",
+          "id": "5777940d4e851b764f37becce0b0737f",
+          "passes": 1,
+          "fails": 0
+        },
+        {
+          "name": "DEACTIVATE BURST2 REQ8 - no server error",
+          "path": "::DEACTIVATE BURST2 REQ8 - no server error",
+          "id": "251fc7940afb71b5f8615e9c63c3c381",
+          "passes": 1,
+          "fails": 0
+        },
+        {
+          "name": "DEACTIVATE BURST2 REQ9 - no server error",
+          "path": "::DEACTIVATE BURST2 REQ9 - no server error",
+          "id": "03914913c3914f07d780f14548e853e0",
+          "passes": 1,
+          "fails": 0
+        },
+        {
+          "name": "DEACTIVATE BURST2 REQ10 - no server error",
+          "path": "::DEACTIVATE BURST2 REQ10 - no server error",
+          "id": "bbacb38da6acf5899cfd72ae8ebf1ea1",
+          "passes": 1,
+          "fails": 0
+        },
+        {
+          "name": "DEACTIVATE BURST3 REQ1 - no server error",
+          "path": "::DEACTIVATE BURST3 REQ1 - no server error",
+          "id": "fa9db55d5fa9d3132f3acd4b1e1e259f",
+          "passes": 1,
+          "fails": 0
+        },
+        {
+          "name": "DEACTIVATE BURST3 REQ2 - no server error",
+          "path": "::DEACTIVATE BURST3 REQ2 - no server error",
+          "id": "57c839b2f6865068f06e5f7670bc009c",
+          "passes": 1,
+          "fails": 0
+        },
+        {
+          "path": "::DEACTIVATE BURST3 REQ3 - no server error",
+          "id": "59e166db446aef19e5b5e1c34438383f",
+          "passes": 1,
+          "fails": 0,
+          "name": "DEACTIVATE BURST3 REQ3 - no server error"
+        },
+        {
+          "name": "DEACTIVATE BURST3 REQ4 - no server error",
+          "path": "::DEACTIVATE BURST3 REQ4 - no server error",
+          "id": "9848dc94accd49b8d58f6b87195e4141",
+          "passes": 1,
+          "fails": 0
+        },
+        {
+          "path": "::DEACTIVATE BURST3 REQ5 - no server error",
+          "id": "3344ea8c40320d9cf6a71b9308ede256",
+          "passes": 1,
+          "fails": 0,
+          "name": "DEACTIVATE BURST3 REQ5 - no server error"
+        },
+        {
+          "fails": 0,
+          "name": "DEACTIVATE BURST3 REQ6 - no server error",
+          "path": "::DEACTIVATE BURST3 REQ6 - no server error",
+          "id": "57b01bba4af19118a32d023ecfc49455",
+          "passes": 1
+        },
+        {
+          "path": "::DEACTIVATE BURST3 REQ7 - no server error",
+          "id": "f96df754df908748bfb328db844f7451",
+          "passes": 1,
+          "fails": 0,
+          "name": "DEACTIVATE BURST3 REQ7 - no server error"
+        },
+        {
+          "name": "DEACTIVATE BURST3 REQ8 - no server error",
+          "path": "::DEACTIVATE BURST3 REQ8 - no server error",
+          "id": "19c03fb9a07956a1e763fe6e38d879b2",
+          "passes": 1,
+          "fails": 0
+        },
+        {
+          "name": "DEACTIVATE BURST3 REQ9 - no server error",
+          "path": "::DEACTIVATE BURST3 REQ9 - no server error",
+          "id": "45d527e2ef391994f54d09348165d125",
+          "passes": 1,
+          "fails": 0
+        },
+        {
+          "name": "DEACTIVATE BURST3 REQ10 - no server error",
+          "path": "::DEACTIVATE BURST3 REQ10 - no server error",
+          "id": "7147a6c7f4de56d073c63b961e7df3f9",
+          "passes": 1,
+          "fails": 0
+        },
+        {
+          "name": "RETIRE BURST1 REQ1 - no server error",
+          "path": "::RETIRE BURST1 REQ1 - no server error",
+          "id": "f27ccf23a2ec8c2f9d08626e36a2fc26",
+          "passes": 1,
+          "fails": 0
+        },
+        {
+          "name": "RETIRE BURST1 REQ2 - no server error",
+          "path": "::RETIRE BURST1 REQ2 - no server error",
+          "id": "2cd7c8d7df02f44ac2f0ac576168cd12",
+          "passes": 1,
+          "fails": 0
+        },
+        {
+          "name": "RETIRE BURST1 REQ3 - no server error",
+          "path": "::RETIRE BURST1 REQ3 - no server error",
+          "id": "63721fb2aa547b57ba20378fbfe62e49",
+          "passes": 1,
+          "fails": 0
+        },
+        {
+          "fails": 0,
+          "name": "RETIRE BURST1 REQ4 - no server error",
+          "path": "::RETIRE BURST1 REQ4 - no server error",
+          "id": "588df50f526481f595ab8516407351be",
+          "passes": 1
+        },
+        {
+          "passes": 1,
+          "fails": 0,
+          "name": "RETIRE BURST1 REQ5 - no server error",
+          "path": "::RETIRE BURST1 REQ5 - no server error",
+          "id": "ef9c4f77519c0e888b582b49baa11285"
+        },
+        {
+          "passes": 1,
+          "fails": 0,
+          "name": "RETIRE BURST1 REQ6 - no server error",
+          "path": "::RETIRE BURST1 REQ6 - no server error",
+          "id": "a2a65627b14743aea02a1900a88a5752"
+        },
+        {
+          "name": "RETIRE BURST1 REQ7 - no server error",
+          "path": "::RETIRE BURST1 REQ7 - no server error",
+          "id": "4534d0058dbb4d64d07603defecbbba7",
+          "passes": 1,
+          "fails": 0
+        },
+        {
+          "name": "RETIRE BURST1 REQ8 - no server error",
+          "path": "::RETIRE BURST1 REQ8 - no server error",
+          "id": "f36320593105faf50b721d4b64da156a",
+          "passes": 1,
+          "fails": 0
+        },
+        {
+          "id": "af1e5f5c2feb44262b43737a9e67f089",
+          "passes": 1,
+          "fails": 0,
+          "name": "RETIRE BURST1 REQ9 - no server error",
+          "path": "::RETIRE BURST1 REQ9 - no server error"
+        },
+        {
+          "name": "RETIRE BURST1 REQ10 - no server error",
+          "path": "::RETIRE BURST1 REQ10 - no server error",
+          "id": "98589efe1e3b4775073f8c1f3428d8d6",
+          "passes": 1,
+          "fails": 0
+        },
+        {
+          "fails": 0,
+          "name": "RETIRE BURST2 REQ1 - no server error",
+          "path": "::RETIRE BURST2 REQ1 - no server error",
+          "id": "60e5178b49f3cd9a6b74b1addb583124",
+          "passes": 1
+        },
+        {
+          "passes": 1,
+          "fails": 0,
+          "name": "RETIRE BURST2 REQ2 - no server error",
+          "path": "::RETIRE BURST2 REQ2 - no server error",
+          "id": "09f9d95c470af54ff68c888c411ba3b4"
+        },
+        {
+          "path": "::RETIRE BURST2 REQ3 - no server error",
+          "id": "63f9647ff3f3deefbadfb501e5771227",
+          "passes": 1,
+          "fails": 0,
+          "name": "RETIRE BURST2 REQ3 - no server error"
+        },
+        {
+          "name": "RETIRE BURST2 REQ4 - no server error",
+          "path": "::RETIRE BURST2 REQ4 - no server error",
+          "id": "5cdf8ca801f0c97045f75e4298dae1d0",
+          "passes": 1,
+          "fails": 0
+        },
+        {
+          "fails": 0,
+          "name": "RETIRE BURST2 REQ5 - no server error",
+          "path": "::RETIRE BURST2 REQ5 - no server error",
+          "id": "3d7cc97cf16143e6e28c0e5732f11c9e",
+          "passes": 1
+        },
+        {
+          "id": "30e84d5ea4d7dbcab52d9ee5e2a0f4b8",
+          "passes": 1,
+          "fails": 0,
+          "name": "RETIRE BURST2 REQ6 - no server error",
+          "path": "::RETIRE BURST2 REQ6 - no server error"
+        },
+        {
+          "name": "RETIRE BURST2 REQ7 - no server error",
+          "path": "::RETIRE BURST2 REQ7 - no server error",
+          "id": "7b4db28a87adc82b472049208277da07",
+          "passes": 1,
+          "fails": 0
+        },
+        {
+          "name": "RETIRE BURST2 REQ8 - no server error",
+          "path": "::RETIRE BURST2 REQ8 - no server error",
+          "id": "c389fc2b2f0ddf044a72c3c38d763bf2",
+          "passes": 1,
+          "fails": 0
+        },
+        {
+          "id": "136dc536e6748254bb881e8cc352fe26",
+          "passes": 1,
+          "fails": 0,
+          "name": "RETIRE BURST2 REQ9 - no server error",
+          "path": "::RETIRE BURST2 REQ9 - no server error"
+        },
+        {
+          "fails": 0,
+          "name": "RETIRE BURST2 REQ10 - no server error",
+          "path": "::RETIRE BURST2 REQ10 - no server error",
+          "id": "63cd58c905f54039138d136f529346b2",
+          "passes": 1
+        },
+        {
+          "name": "RETIRE BURST3 REQ1 - no server error",
+          "path": "::RETIRE BURST3 REQ1 - no server error",
+          "id": "189349ac0ff302475cad0deacd5f4331",
+          "passes": 1,
+          "fails": 0
+        },
+        {
+          "path": "::RETIRE BURST3 REQ2 - no server error",
+          "id": "c9eacbeaf9a31d7cad6ee928f41af018",
+          "passes": 1,
+          "fails": 0,
+          "name": "RETIRE BURST3 REQ2 - no server error"
+        },
+        {
+          "passes": 1,
+          "fails": 0,
+          "name": "RETIRE BURST3 REQ3 - no server error",
+          "path": "::RETIRE BURST3 REQ3 - no server error",
+          "id": "ae232f3ca147e16226d7abc334842945"
+        },
+        {
+          "name": "RETIRE BURST3 REQ4 - no server error",
+          "path": "::RETIRE BURST3 REQ4 - no server error",
+          "id": "97becd72fc4c2ad5e89b303cbd2f87a3",
+          "passes": 1,
+          "fails": 0
+        },
+        {
+          "name": "RETIRE BURST3 REQ5 - no server error",
+          "path": "::RETIRE BURST3 REQ5 - no server error",
+          "id": "1dacdfb4b64bec451650252ae2c444ab",
+          "passes": 1,
+          "fails": 0
+        },
+        {
+          "name": "RETIRE BURST3 REQ6 - no server error",
+          "path": "::RETIRE BURST3 REQ6 - no server error",
+          "id": "09a65330eba7bcb2945cd3d17caad49a",
+          "passes": 1,
+          "fails": 0
+        },
+        {
+          "fails": 0,
+          "name": "RETIRE BURST3 REQ7 - no server error",
+          "path": "::RETIRE BURST3 REQ7 - no server error",
+          "id": "c467905a129b511e803ceb5b499c5470",
+          "passes": 1
+        },
+        {
+          "name": "RETIRE BURST3 REQ8 - no server error",
+          "path": "::RETIRE BURST3 REQ8 - no server error",
+          "id": "11ba72183e60a33e0606487dab9ecc1b",
+          "passes": 1,
+          "fails": 0
+        },
+        {
+          "name": "RETIRE BURST3 REQ9 - no server error",
+          "path": "::RETIRE BURST3 REQ9 - no server error",
+          "id": "7571f65a1c03e5cc6c1e5105eb9d2f56",
+          "passes": 1,
+          "fails": 0
+        },
+        {
+          "passes": 1,
+          "fails": 0,
+          "name": "RETIRE BURST3 REQ10 - no server error",
+          "path": "::RETIRE BURST3 REQ10 - no server error",
+          "id": "12b144686556cebd67df37d454cc31bf"
+        }
+      ],
+    "name": "",
+    "path": ""
+  },
+  "options": {
+    "summaryTrendStats": [
+      "avg",
+      "min",
+      "med",
+      "max",
+      "p(90)",
+      "p(95)"
+    ],
+    "summaryTimeUnit": "",
+    "noColor": false
+  },
+  "state": {
+    "testRunDurationMs": 190040.9611,
+    "isStdOutTTY": true,
+    "isStdErrTTY": true
+  },
+  "metrics": {
+    "http_req_failed": {
+      "type": "rate",
+      "contains": "default",
+      "values": {
+        "rate": 0.9090909090909091,
+        "passes": 60,
+        "fails": 6
+      }
+    },
+    "retire_422": {
+      "type": "counter",
+      "contains": "default",
+      "values": {
+        "count": 26,
+        "rate": 0.13681261055251526
+      }
+    },
+    "http_req_waiting": {
+      "contains": "time",
+      "values": {
+        "avg": 346.5444136363635,
+        "min": 249.3107,
+        "med": 279.7819,
+        "max": 2618.7692,
+        "p(90)": 407.2327,
+        "p(95)": 427.50070000000005
+      },
+      "type": "trend"
+    },
+    "data_sent": {
+      "type": "counter",
+      "contains": "data",
+      "values": {
+        "count": 62106,
+        "rate": 326.8032304220966
+      }
+    },
+    "deactivate_422": {
+      "type": "counter",
+      "contains": "default",
+      "values": {
+        "count": 28,
+        "rate": 0.14733665751809336
+      }
+    },
+    "rate_limited_429": {
+      "type": "counter",
+      "contains": "default",
+      "values": {
+        "rate": 0.03157214089673429,
+        "count": 6
+      }
+    },
+    "data_received": {
+      "values": {
+        "count": 152660,
+        "rate": 803.3005048825761
+      },
+      "type": "counter",
+      "contains": "data"
+    },
+    "iteration_duration": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "p(90)": 32967.77635,
+        "p(95)": 33116.290575,
+        "avg": 31672.479316666668,
+        "min": 31004.1551,
+        "med": 31038.01175,
+        "max": 33264.8048
+      }
+    },
+    "http_req_duration": {
+      "contains": "time",
+      "values": {
+        "med": 283.56685,
+        "max": 2625.0771,
+        "p(90)": 408.19335,
+        "p(95)": 427.88739999999996,
+        "avg": 347.8959075757575,
+        "min": 249.3107
+      },
+      "thresholds": {
+        "p(95)<5000": {
+          "ok": true
+        }
+      },
+      "type": "trend"
+    },
+    "http_req_receiving": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "med": 0,
+        "max": 23.0552,
+        "p(90)": 1.7619,
+        "p(95)": 6.031,
+        "avg": 1.2463060606060608,
+        "min": 0
+      }
+    },
+    "http_req_connecting": {
+      "values": {
+        "min": 0,
+        "med": 0,
+        "max": 247.2154,
+        "p(90)": 0,
+        "p(95)": 0,
+        "avg": 7.485806060606061
+      },
+      "type": "trend",
+      "contains": "time"
+    },
+    "http_req_tls_handshaking": {
+      "values": {
+        "p(95)": 0,
+        "avg": 15.81959090909091,
+        "min": 0,
+        "med": 0,
+        "max": 529.5673,
+        "p(90)": 0
+      },
+      "type": "trend",
+      "contains": "time"
+    },
+    "iterations": {
+      "type": "counter",
+      "contains": "default",
+      "values": {
+        "count": 6,
+        "rate": 0.03157214089673429
+      }
+    },
+    "http_reqs": {
+      "type": "counter",
+      "contains": "default",
+      "values": {
+        "count": 66,
+        "rate": 0.3472935498640772
+      }
+    },
+    "http_req_blocked": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "p(95)": 702.4334,
+        "avg": 76.15661060606061,
+        "min": 0,
+        "med": 0,
+        "max": 874.7595,
+        "p(90)": 273.89194999999995
+      }
+    },
+    "http_req_sending": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "avg": 0.10518787878787879,
+        "min": 0,
+        "med": 0,
+        "max": 5.3053,
+        "p(90)": 0,
+        "p(95)": 0.3909
+      }
+    },
+    "custom_error_rate": {
+      "type": "rate",
+      "contains": "default",
+      "values": {
+        "passes": 0,
+        "fails": 60,
+        "rate": 0
+      }
+    },
+    "http_req_duration{expected_response:true}": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "p(95)": 2079.771175,
+        "avg": 769.3274999999999,
+        "min": 363.9508,
+        "med": 405.3576,
+        "max": 2625.0771,
+        "p(90)": 1534.46525
+      }
+    },
+    "checks": {
+      "values": {
+        "rate": 1,
+        "passes": 60,
+        "fails": 0
+      },
+      "type": "rate",
+      "contains": "default"
+    },
+    "vus": {
+      "values": {
+        "max": 1,
+        "value": 1,
+        "min": 1
+      },
+      "type": "gauge",
+      "contains": "default"
+    },
+    "vus_max": {
+      "type": "gauge",
+      "contains": "default",
+      "values": {
+        "value": 1,
+        "min": 1,
+        "max": 1
+      }
+    }
+  },
+  "setup_data": {
+    "token": "your-real-token"
+  }
+}

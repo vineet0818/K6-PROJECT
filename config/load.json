@@ -1,0 +1,14 @@
+{
+  "thinkTime": 5,
+  "loadProfile": {
+    "stages": [
+      { "duration": "30s", "target": 10 },
+      { "duration": "30m", "target": 10 },
+      { "duration": "10s", "target": 0 }
+    ]
+  },
+  "thresholds": {
+    "custom_error_rate": ["rate<0.01"],
+    "http_req_duration": ["p(95)<2000"]
+  }
+}
