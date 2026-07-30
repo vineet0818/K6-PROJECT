@@ -1,4 +1,3 @@
-````markdown
 # k6 Performance Tests
 
 This project contains performance and load tests written using **k6**.
@@ -231,4 +230,3 @@ k6 run tests/example.js
 $env:BEARER_TOKEN="your_token"
 k6 run tests/example.js
 ```
-````
